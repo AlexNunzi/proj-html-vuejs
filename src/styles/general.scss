@@ -1,0 +1,6 @@
+@use 'bootstrap';
+@use './partials/variables' as *;
+
+.ms_primary-bg{
+    background-color: $primary-color;
+}
