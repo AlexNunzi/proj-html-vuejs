@@ -51,6 +51,25 @@ export const storage = reactive(
                 link: '#'
             },
         ],
-
+        solutions: [
+            {
+                img: 'TwoManTeams-600x383.jpg',
+                title: 'Two Man Teams',
+                text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. In laborum recusandae suscipit quia eum quae obcaecati laboriosam temporibus vel.',
+                link: '#'
+            },
+            {
+                img: 'WeDoAllTheLifting-600x383.jpg',
+                title: 'We Do All The Lifting',
+                text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. In laborum recusandae suscipit quia eum quae obcaecati laboriosam temporibus vel.',
+                link: '#'
+            },
+            {
+                img: 'CoastToCoast-600x383.jpg',
+                title: 'Coast To Coast',
+                text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. In laborum recusandae suscipit quia eum quae obcaecati laboriosam temporibus vel.',
+                link: '#'
+            }
+        ]
     }
 );

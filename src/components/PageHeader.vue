@@ -3,9 +3,9 @@
         <HeadTop />
         <NavBar @selectNavLink="emitClick"/>
         <div class="ms_head-content text-center">
-            <h6 class="fw-bold ms_secondary-text">MOVING WITHOUT THE HASSLE</h6>
-            <h1 class="ms_primary-text fw-bold">WE MAKE IT SIMPLE</h1>
-            <h6 class="fw-bold ms_secondary-text">PROFESSIONAL SERVICE WITH QUALITY AND CUSTOMER SATISFACTION</h6>
+            <h6 class="fw-bold ms_secondary-text ms_fs-7">MOVING WITHOUT THE HASSLE</h6>
+            <h1 class="ms_primary-text fw-bold ms_fs-1">WE MAKE IT SIMPLE</h1>
+            <h6 class="fw-bold ms_secondary-text ms_fs-7">PROFESSIONAL SERVICE WITH QUALITY AND CUSTOMER SATISFACTION</h6>
         </div>
         <GetFreeQuote />
     </header>

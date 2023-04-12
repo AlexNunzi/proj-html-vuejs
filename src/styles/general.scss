@@ -13,10 +13,60 @@
     background-color: $secondary-color;
 }
 
+.ms_tertiary-bg{
+    background-color: $tertiary-color;
+}
+
+.ms_pure-white-bg{
+    background-color: $pure-white;
+}
+
 .ms_primary-text{
     color: $primary-text;
 }
 
 .ms_secondary-text{
     color: $secondary-text;
+}
+
+.ms_tertiary-text{
+    color: $primary-color;
+}
+
+.ms_fourth-text{
+    color: $secondary-color;
+}
+
+.btn.ms_custom-btn{
+    background-color: #1975c0;
+    border: none;
+    border-radius: 2rem;
+    color: $white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    font-size: 0.75rem;
+
+    &:hover{
+        background-color: lighten($secondary-color, 5);
+        color: darken($white, 10);
+    }
+}
+
+.ms_section-padding{
+    padding: 9rem 0;
+}
+
+.ms_container-mid{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.ms_fs-1{
+    font-size: 3.5rem;
+}
+
+.ms_fs-7{
+    font-size: 0.75rem;
 }
