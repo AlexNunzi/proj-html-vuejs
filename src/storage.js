@@ -2,6 +2,7 @@ import {reactive} from 'vue';
 
 export const storage = reactive(
     {
+        currentPage: 0,
         navLinks: [
             {
                 name: 'Home',

@@ -1,6 +1,22 @@
 @use 'bootstrap';
 @use './partials/variables' as *;
 
+.ms_text-white{
+    color: $white;
+}
+
 .ms_primary-bg{
     background-color: $primary-color;
+}
+
+.ms_secondary-bg{
+    background-color: $secondary-color;
+}
+
+.ms_primary-text{
+    color: $primary-text;
+}
+
+.ms_secondary-text{
+    color: $secondary-text;
 }

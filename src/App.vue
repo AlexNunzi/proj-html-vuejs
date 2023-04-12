@@ -1,6 +1,6 @@
 <template>
 
-<PageHeader />
+<PageHeader @selectNavLink="selectPage"/>
 
 <PageMain />
 
@@ -12,12 +12,23 @@
 import PageHeader from './components/PageHeader.vue';
 import PageMain from './components/PageMain.vue';
 import PageFooter from './components/PageFooter.vue';
+import { storage } from './storage';
 
 export default{
   components: {
     PageHeader,
     PageMain,
     PageFooter
+  },
+  data() {
+    return {
+      storage
+    }
+  },
+  methods: {
+    selectPage(i){
+      this.storage.currentPage = i;
+    }
   }
 }
 
