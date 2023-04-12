@@ -4,7 +4,7 @@
         <div class="ms_pure-white-bg card-body">
             <h5 class="card-title ms_fourth-text"> {{ title }} </h5>
             <p class="card-text ms_fs-7 lh-lg"> {{ text }} </p>
-            <a :href="link" class="btn ms_custom-btn text-uppercase fw-bold">Read more</a>
+            <a :href="link" class="btn ms_custom-btn">Read more</a>
         </div>
     </div>
 </template>
