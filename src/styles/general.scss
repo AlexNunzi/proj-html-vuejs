@@ -25,6 +25,10 @@
     background-color: $pure-white;
 }
 
+.ms_scroll-up-bg{
+    background-color: $scroll-up-bg;
+}
+
 .ms_primary-text{
     color: $primary-text;
 }
@@ -73,4 +77,18 @@
 
 .ms_fs-7{
     font-size: 0.75rem;
+}
+
+.selected{
+    color: $primary-color;
+}
+
+.ms_navLink:hover{
+    color: darken($primary-color, 10);
+}
+
+.ms_fixedScroll{
+    position: fixed;
+    bottom: 0;
+    right: 30px;
 }

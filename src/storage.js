@@ -6,49 +6,49 @@ export const storage = reactive(
         navLinks: [
             {
                 name: 'Home',
-                link:'#'
+                link:'#Home'
             },
             {
                 name: 'Rates',
-                link:'#'
+                link:'#Rates'
             },
             {
                 name: 'Testimonials',
-                link:'#'
+                link:'#Testimonials'
             },
             {
                 name: 'FAQ',
-                link:'#'
+                link:'#FAQ'
             },
             {
                 name: 'Blog',
-                link:'#'
+                link:'#Blog'
             },
             {
                 name: 'Contact',
-                link:'#'
+                link:'#Contact'
             },
             {
                 name: 'Free quote',
-                link:'#'
+                link:'#FreeQuote'
             },
         ],
         socialLinks: [
             {
                 icon: 'fa-brands fa-facebook-f',
-                link: '#'
+                link: '#Facebook'
             },
             {
                 icon: 'fa-brands fa-twitter',
-                link: '#'
+                link: '#Twitter'
             },
             {
                 icon: 'fa-brands fa-instagram',
-                link: '#'
+                link: '#Instagram'
             },
             {
                 icon: 'fa-brands fa-youtube',
-                link: '#'
+                link: '#Youtube'
             },
         ],
         solutions: [
@@ -56,19 +56,58 @@ export const storage = reactive(
                 img: 'TwoManTeams-600x383.jpg',
                 title: 'Two Man Teams',
                 text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. In laborum recusandae suscipit quia eum quae obcaecati laboriosam temporibus vel.',
-                link: '#'
+                link: '#TwoManTeams'
             },
             {
                 img: 'WeDoAllTheLifting-600x383.jpg',
                 title: 'We Do All The Lifting',
                 text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. In laborum recusandae suscipit quia eum quae obcaecati laboriosam temporibus vel.',
-                link: '#'
+                link: '#WeDoAllTheLifting'
             },
             {
                 img: 'CoastToCoast-600x383.jpg',
                 title: 'Coast To Coast',
                 text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. In laborum recusandae suscipit quia eum quae obcaecati laboriosam temporibus vel.',
-                link: '#'
+                link: '#CoastToCoast'
+            }
+        ],
+        testimonials: [
+            {
+                img: 'johndoe-400x400.jpg',
+                name: 'Jhon Doe',
+                text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium magnam, ipsum autem labore alias voluptates debitis eius iste rerum quasi ex dolore delectus impedit illo minima quaerat? Debitis, quisquam.'
+            },
+            {
+                img: 'janedoe-400x400.jpg',
+                name: 'Jane Doe',
+                text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium magnam, ipsum autem labore alias voluptates debitis eius iste rerum quasi ex dolore delectus impedit illo minima quaerat? Debitis, quisquam.'
+            },
+            {
+                img: 'johnsmith-400x400.jpg',
+                name: 'John Smith',
+                text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium magnam, ipsum autem labore alias voluptates debitis eius iste rerum quasi ex dolore delectus impedit illo minima quaerat? Debitis, quisquam.'
+            }
+        ],
+        recentPost: [
+            {
+                name: 'Heading Out To College?',
+                link: '#HeadingOutToCollege'
+            },
+            {
+                name: 'Moving Your Business?',
+                link: '#MovingYourBusiness'
+            },
+            {
+                name: 'Outstanding Quality',
+                link: '#OutstandingQuality'
+            },
+            {
+                name: 'Cost Of Moving',
+                link: '#CostOfMoving'
+            },
+            {
+                name: 'Best Moving Tips',
+                link: '#BestMovingTips'
             }
         ]
     }
