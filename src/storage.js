@@ -75,17 +75,17 @@ export const storage = reactive(
             {
                 img: 'johndoe-400x400.jpg',
                 name: 'Jhon Doe',
-                text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium magnam, ipsum autem labore alias voluptates debitis eius iste rerum quasi ex dolore delectus impedit illo minima quaerat? Debitis, quisquam.'
+                text: '\"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium magnam, ipsum autem labore alias voluptates debitis eius iste rerum quasi ex dolore delectus impedit illo minima quaerat? Debitis, quisquam.\"'
             },
             {
                 img: 'janedoe-400x400.jpg',
                 name: 'Jane Doe',
-                text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium magnam, ipsum autem labore alias voluptates debitis eius iste rerum quasi ex dolore delectus impedit illo minima quaerat? Debitis, quisquam.'
+                text: '\"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium magnam, ipsum autem labore alias voluptates debitis eius iste rerum quasi ex dolore delectus impedit illo minima quaerat? Debitis, quisquam.\"'
             },
             {
                 img: 'johnsmith-400x400.jpg',
                 name: 'John Smith',
-                text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium magnam, ipsum autem labore alias voluptates debitis eius iste rerum quasi ex dolore delectus impedit illo minima quaerat? Debitis, quisquam.'
+                text: '\"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium magnam, ipsum autem labore alias voluptates debitis eius iste rerum quasi ex dolore delectus impedit illo minima quaerat? Debitis, quisquam.\"'
             }
         ],
         recentPost: [

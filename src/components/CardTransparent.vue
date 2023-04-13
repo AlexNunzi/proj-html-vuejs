@@ -3,7 +3,7 @@
         <img :src="`/${image}`" class="card-img-top m-auto mb-3 rounded-circle" :alt="name">
         <div class="card-body">
             <h5 class="card-title ms_fourth-text"> {{ name }} </h5>
-            <p class="card-text ms_fs-7 lh-lg"> {{ text }} </p>
+            <p class="card-text ms_fs-7 lh-lg fst-italic"> {{ text }} </p>
         </div>
     </div>
 </template>

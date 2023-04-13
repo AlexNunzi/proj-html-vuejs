@@ -45,7 +45,7 @@
         <section id="ms_request-quote">
             <div class="ms_section-padding ms_container-mid text-center">
                 <HeadingSection title="Request A Free Quote" />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis cumque provident beatae dolor, et blanditiis magni? Odit ex quidem suscipit quibusdam.</p>
+                <p class="lh-lg ms_fs-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis cumque provident beatae dolor, et blanditiis magni? Odit ex quidem suscipit quibusdam.</p>
                 <a href="#" class="btn ms_custom-btn">Click here</a>
             </div>
         </section>
