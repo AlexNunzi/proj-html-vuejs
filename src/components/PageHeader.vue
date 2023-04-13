@@ -42,10 +42,12 @@ export default {
 <style scoped>
 header{
     background-image: url('/avada-movers-homeherobackground-final.jpg');
-    background-position: top;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 50px;
 }
 .ms_head-content{
-    margin: 8rem auto;
+    margin: 12rem auto 14rem;
 }
 </style>
